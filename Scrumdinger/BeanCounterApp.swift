@@ -11,7 +11,7 @@ import SwiftUI
 struct BeanCounterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
     }
 }
